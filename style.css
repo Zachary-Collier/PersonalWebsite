@@ -1,0 +1,12 @@
+.links {     /*to move the links to the right you are using this step*/
+  float: right;
+}
+
+.links a {/* to get rid of the underline you can target the anchor tag by typing either ".links a" or ".links > a"  */
+    text-decoration: none;
+}
+
+header{
+    font-size: 2rem; /*always use rem because this will make the website responsive as possible..  */
+    padding: 0.5em 1em; /*this moves the nav bar down a tad bit */
+}
